@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}GitHub Trending{% endblock %} — 每日幽默点评</title>
+  <meta name="description" content="AI 驱动的 GitHub Trending 每日幽默点评——程序员图一乐。">
+  <link rel="alternate" type="application/rss+xml" title="GitHub Trending RSS" href="/feed.xml">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <span class="logo-icon">&#9650;</span>
+        <span class="logo-text">Trending</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">首页</a>
+        <a href="/archive.html">归档</a>
+        <a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending &nearr;</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>GitHub Trending 幽默点评 — 数据来自 <a href="https://github.com/trending">GitHub Trending</a></p>
+      <p class="footer-meta">AI 自动生成 · 仅供娱乐 · 如果不好笑请 blame the machine</p>
+      <p class="footer-meta">Generated {{ generated_at }}</p>
+    </div>
+  </footer>
+</body>
+</html>

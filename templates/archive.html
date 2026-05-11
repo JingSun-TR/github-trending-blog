@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}归档{% endblock %}
+
+{% block content %}
+<section class="archive-section">
+  <a href="/" class="back-link">&larr; 返回首页</a>
+  <h1 class="archive-title">所有文章</h1>
+  <p class="archive-count">共 {{ total_posts }} 篇</p>
+
+  {% if posts %}
+  <div class="archive-list">
+    {% for post in posts %}
+    <a href="/posts/{{ post.slug }}.html" class="archive-item">
+      <span class="archive-date">{{ post.date }}</span>
+      <span class="archive-title-link">{{ post.title }}</span>
+      <span class="archive-arrow">&rarr;</span>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <p class="empty-icon">📭</p>
+    <h2>还没有文章</h2>
+    <p>等待第一次数据抓取...</p>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,18 @@
+# Dependencies
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data & generated content
+data/*.json
+posts/*.md
+output/
+
+# Secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,58 @@
+name: Daily GitHub Trending Blog
+
+on:
+  schedule:
+    # UTC 0:00 = 北京时间 8:00 AM, 每天更新
+    - cron: '0 0 * * *'
+  workflow_dispatch:   # 手动触发
+  push:
+    branches: [main]   # 推送到 main 时也触发（用于调试）
+
+# GitHub Pages 需要 write 权限
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape GitHub Trending
+        run: python scraper.py
+
+      - name: Generate blog post
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL || '' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4o-mini' }}
+        run: python generate.py
+
+      - name: Build static site
+        run: python build.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Auto-deploy: ${{ github.sha }}'
+          # 保留 commit history（方便回退）
+          force_orphan: false
