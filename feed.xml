@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🤖 今天的 GitHub Trending，AI 卷得我 CPU 都烧了</title>
-      <link>https://trending.dev/posts/2026-05-16.html</link>
-      <description>朋友们，2026年5月16日，我又来给大家盘点 GitHub 上的神仙打架了。今天的热榜，仿佛整个硅谷都在玩“谁家 Agent 更会写代码”大比拼，连 WiFi 信号都不放过——**你要是还在手动写 SQL，建议直接原地辞职去种田。**</description>
-      <pubDate>2026-05-16T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-05-16.html</guid>
+      <title>🔥 GitHub 今日热搜：2026-05-17，今天的项目比周五下午的咖啡还猛</title>
+      <link>https://trending.dev/posts/2026-05-17.html</link>
+      <description>大家好，我是你们的科技段子手。今天的 GitHub Trending 简直是个大杂烩：有人在 Rust 里搞了个全能 JavaScript 宇宙，有人用 WiFi 信号实现了“隔墙有眼”，还有人给 Claude Code 做了个“脑内地图”。来吧，让我们开始今天的“代码脱口秀”！</description>
+      <pubDate>2026-05-17T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-05-17.html</guid>
     </item>
   </channel>
 </rss>
