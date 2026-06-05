@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🤖 今日GitHub热搜：你的AI又胖了，我来帮它减肥！</title>
-      <link>https://trending.dev/posts/2026-06-04.html</link>
-      <description>大家好，我是你们的科技段子手小G。今天的GitHub Trending榜单，仿佛一场“AI与人类程序员的爱恨情仇大戏”——有帮LLM减肥的，有给AI配秘书的，还有让70B模型在4GB显卡上跑步的……看完我只想说：**程序员们，你们是真能折腾啊！**</description>
-      <pubDate>2026-06-04T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-06-04.html</guid>
+      <title>🤖 今天的 GitHub Trending：AI 在疯狂内卷，而我还在纠结午饭吃啥</title>
+      <link>https://trending.dev/posts/2026-06-05.html</link>
+      <description>又是一个被开源项目刷屏的周末！看看今天的热榜，我仿佛看到了一群程序员在疯狂造轮子的同时，还抽空给 LLM 喂了十斤压缩饼干，结果发现它还是不会写“Hello World”。</description>
+      <pubDate>2026-06-05T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-06-05.html</guid>
     </item>
   </channel>
 </rss>
