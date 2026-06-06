@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🤖 今天的 GitHub Trending：AI 在疯狂内卷，而我还在纠结午饭吃啥</title>
-      <link>https://trending.dev/posts/2026-06-05.html</link>
-      <description>又是一个被开源项目刷屏的周末！看看今天的热榜，我仿佛看到了一群程序员在疯狂造轮子的同时，还抽空给 LLM 喂了十斤压缩饼干，结果发现它还是不会写“Hello World”。</description>
-      <pubDate>2026-06-05T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-06-05.html</guid>
+      <title>🤖 今日GitHub：AI卷成麻花，连我猫都学会了写代码</title>
+      <link>https://trending.dev/posts/2026-06-06.html</link>
+      <description>兄弟们，周末好！今天的热榜又是一场AI的“文艺复兴”。15个项目里，10个跟Agent/LLM/记忆相关。我终于明白，**AI不是在取代人类，而是想取代我的周末**。来吧，开喷（划掉），开聊！</description>
+      <pubDate>2026-06-06T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-06-06.html</guid>
     </item>
   </channel>
 </rss>
