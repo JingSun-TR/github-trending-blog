@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🔥 GitHub 今日份爆款：AI 会说话，运维没人权，还有 23 万星的“外挂”</title>
-      <link>https://trending.dev/posts/2026-07-31.html</link>
-      <description>**今日天气：晴，适合摸鱼，不宜给 Jenkins 升级。**</description>
-      <pubDate>2026-07-31T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-07-31.html</guid>
+      <title>🤖 今日 GitHub 热搜：AI 已经学会“自学成才”，而我还在学怎么关掉弹窗广告</title>
+      <link>https://trending.dev/posts/2026-08-01.html</link>
+      <description>哟，各位码农朋友们，周一早上好！今天的 GitHub Trending 又是“AI 都要统治世界了，我还在等 npm install 跑完”的一天。12 个上榜项目里，光是 AI 相关就占了一半，剩下的包括硬件黑客工具、代码审查 TUI、以及一个“内存省到连编译器都心疼”的 Rust 项目。</description>
+      <pubDate>2026-08-01T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-08-01.html</guid>
     </item>
   </channel>
 </rss>
