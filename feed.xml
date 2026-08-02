@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🤖 今日 GitHub 热搜：AI 已经学会“自学成才”，而我还在学怎么关掉弹窗广告</title>
-      <link>https://trending.dev/posts/2026-08-01.html</link>
-      <description>哟，各位码农朋友们，周一早上好！今天的 GitHub Trending 又是“AI 都要统治世界了，我还在等 npm install 跑完”的一天。12 个上榜项目里，光是 AI 相关就占了一半，剩下的包括硬件黑客工具、代码审查 TUI、以及一个“内存省到连编译器都心疼”的 Rust 项目。</description>
-      <pubDate>2026-08-01T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-08-01.html</guid>
+      <title>🚀 GitHub 今日热榜：隔壁程序员又整活了！</title>
+      <link>https://trending.dev/posts/2026-08-02.html</link>
+      <description>各位码农朋友，欢迎收看今天的《GitHub 相亲角》，哦不，是《GitHub 今日热榜》！今天这 15 个项目，有的教你学 AI，有的教你黑系统，还有的想把 YouTube 给"劫持"了…… 话不多说，咱们直接开唠！</description>
+      <pubDate>2026-08-02T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-08-02.html</guid>
     </item>
   </channel>
 </rss>
