@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🤖 今日AI圈：人人都是“甩锅”大师，代码越少越光荣！</title>
-      <link>https://trending.dev/posts/2026-09-06.html</link>
-      <description>嘿，各位“资深”码农们，欢迎来到今天的GitHub Trending吐槽大会！今天的热榜啊，那叫一个“AI含量过高”，不知道的还以为我误入了什么科幻片片场。一句话总结：**今天没有需求，只有Agent，写代码的最高境界，是让AI替你写，然后你负责在PR描述里写“LGTM”。**</description>
-      <pubDate>2026-09-06T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-09-06.html</guid>
+      <title>今日GitHub：AI Agent の 内卷大赛，连 LLVM 都来凑热闹了 🤖</title>
+      <link>https://trending.dev/posts/2026-09-07.html</link>
+      <description>各位打工人早上好！今天的 Trending 榜单仿佛是一场“AI Agent 全家桶”的双十一大促——你可以不写代码，但你的 AI 必须会写。更可怕的是，连编译器都开始学“偷懒”了。废话少说，直接开吃！</description>
+      <pubDate>2026-09-07T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-09-07.html</guid>
     </item>
   </channel>
 </rss>
