@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔥 GitHub 今日热榜：阿里把代码审查卷成了流水线，NSA 还在默默拆你的二进制 — 每日幽默点评</title>
+  <meta name="description" content="AI 驱动的 GitHub Trending 每日幽默点评——程序员图一乐。">
+  <link rel="alternate" type="application/rss+xml" title="GitHub Trending RSS" href="/feed.xml">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <span class="logo-icon">&#9650;</span>
+        <span class="logo-text">Trending</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">首页</a>
+        <a href="/archive.html">归档</a>
+        <a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending &nearr;</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    
+<article class="post-article">
+  <header class="post-header">
+    <a href="/" class="back-link">&larr; 返回首页</a>
+    <div class="post-date">2026-09-16</div>
+    <h1 class="post-title">🔥 GitHub 今日热榜：阿里把代码审查卷成了流水线，NSA 还在默默拆你的二进制</h1>
+  </header>
+  <div class="post-body">
+    <p>朋友们，今天的热榜有一股很浓的"2026 年味道"——满屏都是 AI Agent、LLM、MCP，仿佛不接个大模型出门都不好意思跟人打招呼。我数了一下，14 个项目里有 9 个跟 AI 沾边。剩下的 5 个，有 2 个是来拆你代码的，1 个是来偷你课程的，还有 1 个是 Homebrew 终于想起来自己是给人类用的。</p>
+<p>让我们开始今天的赛博遛弯。</p>
+<hr>
+<h2>🏢 alibaba/open-code-review —— 阿里把"祖传代码审查"做成了产品</h2>
+<p class="bold-line"><strong>Go | ⭐ 28,804 | 今日 +2,756</strong></p>
+<p>一句话：确定性流水线 + LLM Agent 的混合架构代码审查工具，阿里内部大规模实战检验过。</p>
+<p>看到"battle-tested at Alibaba's scale"这句话，我脑子里立刻浮现出一个画面：双十一凌晨三点，几万个仓库同时提交代码，这套工具一边跑规则一边喊"兄弟你这行有 NPE 风险"，然后被无视。</p>
+<p>内置规则集覆盖 NPE、线程安全、XSS、SQL 注入——翻译成人话就是：你写过的所有经典 bug，它都替你总结好了。最妙的是它不纯靠大模型瞎猜，而是"确定性流水线"兜底。这就像请了个老中医，先号脉（规则引擎）再开方（LLM），而不是让 AI 直接给你念一段玄学。</p>
+<p>今日 +2,756 星，说明全世界的技术 Leader 都想把这个甩给下属用。</p>
+<hr>
+<h2>🐦 JustVugg/colibri —— 纯 C 跑前沿 MoE 模型，蜂鸟虽小，胃口很大</h2>
+<p class="bold-line"><strong>C | ⭐ 33,940 | 今日 +2,026</strong></p>
+<p>一句话：用纯 C、零依赖，把你已有的破硬件变成能跑前沿 MoE 模型的机器，专家权重直接从磁盘流式读取。</p>
+<p>"Experts streamed from disk"——这句话是整篇描述里最性感的部分。意思是你的内存装不下几十亿参数？没关系，我们把专家权重当 Netflix 剧集一样一集一集往下刷，看到哪加载到哪。</p>
+<p>项目名叫 colibri（蜂鸟），寓意小而快。我觉得更贴切的比喻是：你家的老式 DVD 机，硬是播出了 4K 蓝光。代价是——每次换专家，硬盘都要嗷一声。</p>
+<p>纯 C 零依赖，这年头能写出这种东西的人，值得尊敬。今日 +2,026 星，全是被显卡价格逼疯的开发者点的。</p>
+<hr>
+<h2>🎙️ debpalash/VoiceStudio —— ElevenLabs 的开源平替，646 种语言</h2>
+<p class="bold-line"><strong>Python | ⭐ 31,082 | 今日 +2,072</strong></p>
+<p>一句话：完全本地的开源 ElevenLabs 替代品，支持声音克隆、设计、视频配音、听写、转录、有声书，646 种语言。</p>
+<p>646 种语言。我认真想了一下，全世界大概有 7000 种语言，它覆盖了将近十分之一。也就是说，如果你用某种只有三百人说的方言骂它，它可能也能用同样的方言回骂你。</p>
+<p>"fully-local"是关键词——你的声音数据不出本机，隐私这块稳了。适合那些既想克隆自己声音做有声书、又不想把声纹上传到某个硅谷服务器的人。今日 +2,072 星，有声书主播们已经开始连夜迁移了。</p>
+<hr>
+<h2>🍺 Homebrew/BrewUI —— Homebrew 官方 GUI，终于给命令行党配了轮椅</h2>
+<p class="bold-line"><strong>Swift | ⭐ 1,416 | 今日 +271</strong></p>
+<p>一句话：Homebrew 官方 macOS 图形界面。</p>
+<p>说实话这个项目最搞笑的不是它本身，而是它的存在意义。Homebrew 诞生十几年，一直是"终端里敲 brew install"的代名词，是 Mac 程序员入门第一课。现在官方终于承认：不是所有人都想背命令。</p>
+<p>老用户看到这个可能会说："我 brew 用得比 ls 都熟，要什么 GUI。" 但新用户会说："原来 brew 还能点鼠标？"</p>
+<p>这是那种"迟到了十年但终于来了"的项目。+271 星，不多，但象征意义满分。</p>
+<hr>
+<h2>🕵️ NationalSecurityAgency/ghidra —— NSA 依旧在榜，且依旧免费</h2>
+<p class="bold-line"><strong>Java | ⭐ 76,761 | 今日 +725</strong></p>
+<p>一句话：美国国安局的软件逆向工程框架。</p>
+<p>每次看到这个项目上榜，我都会停下来感慨三秒：NSA，一个理论上应该最神秘、最不透明的机构，却维护着全世界最受欢迎的开源逆向工具之一。76,761 颗星，比大多数商业安全产品都火。</p>
+<p>它免费、开源、功能强大，能把二进制文件剥得比你还坦诚。今天 +725 星，说明又有一批人决定搞清楚"这个 exe 到底在干嘛"。</p>
+<p>引用一句老话：<strong>Ghidra 是 NSA 给全人类的礼物，也是 NSA 给全人类的提醒。</strong></p>
+<hr>
+<h2>🛠️ addyosmani/agent-skills —— 94,844 星，教 AI 怎么好好写代码</h2>
+<p class="bold-line"><strong>JavaScript | ⭐ 94,844 | 今日 +307</strong></p>
+<p>一句话：给 AI 编码 Agent 用的生产级工程技能。</p>
+<p>94,844 星。这个数字放在任何项目上都算怪物级别了，而它居然是个"技能包"。Addy Osmani 出手，果然不同凡响——这位 Google 老哥写前端性能优化写了十几年，现在转头来教 AI 怎么当个合格的工程师。</p>
+<p>项目本质是：把人类程序员的工程经验（怎么设计、怎么测试、怎么重构）打包成 AI 能吃的格式。说白了就是《五年高考三年模拟》的 AI 版。</p>
+<p>有点黑色幽默的是——我们花了几十年教人类写代码，现在又花时间教 AI 写代码，然后 AI 再来教我写代码。循环了属于是。</p>
+<hr>
+<h2>📚 tonhowtf/omniget —— 一键下载 1800+ 网站，包括你的网课</h2>
+<p class="bold-line"><strong>Rust | ⭐ 13,000 | 今日 +258</strong></p>
+<p>一句话：免费开源桌面应用，下载 Udemy、Hotmart 课程、YouTube 视频、音乐、电子书，1800+ 网站，无需终端，内置课程播放器和 PDF/EPUB 阅读器。</p>
+<p>"无需终端"这四个字，戳中了多少人的心。以前用 yt-dlp 要背参数、拼命令、跟 ffmpeg 斗智斗勇，现在点几下鼠标就完事了。</p>
+<p>支持 1800+ 网站，包括 Udemy 课程——这个功能让人心情复杂。一边是"我的网课终于可以离线看了"，一边是"平台看到这个项目可能已经报警了"。</p>
+<p>项目强调"你的文件留在你自己的电脑上"，这句话很有分寸感：我只是个下载工具，内容去哪了我不知道。</p>
+<hr>
+<h2>🔍 pacifio/atlas —— 给多个 AI Agent 当班主任</h2>
+<p class="bold-line"><strong>Rust | ⭐ 4,658 | 今日 +91</strong></p>
+<p>一句话：Agent 的源代码管理，同时指挥多个编码 Agent，追踪它们的改动并统一查询。</p>
+<p>现在的开发场景已经变成：你同时开着 Claude Code、Codex、Cursor，三个 AI 各改一部分代码，然后你打开 git diff，发现自己看不懂任何一行。</p>
+<p>atlas 就是来解决这个问题的——它像班主任一样，把三个"学生"的作业本收上来，告诉你谁改了哪道题、谁抄了谁。</p>
+<p>Rust 写的，快。这个项目代表了一个新趋势：<strong>当一个人指挥多个 AI 时，管理 AI 的工具本身会成为刚需。</strong></p>
+<hr>
+<h2>🤖 earendil-works/pi —— 105,771 星，AI Agent 全家桶</h2>
+<p class="bold-line"><strong>TypeScript | ⭐ 105,771 | 今日 +458</strong></p>
+<p>一句话：AI Agent 工具包——统一 LLM API、Agent 循环、TUI、编码 Agent CLI。</p>
+<p>十万五千星。这个数字已经不能叫"热门"了，得叫"天文现象"。今天所有 AI Agent 相关的项目加起来，星数都没它多。</p>
+<p>它的定位是"全家桶"：你想接任何模型？统一 API。你想写 Agent 循环？现成的。你想在终端里干活？TUI 给你。你想直接用它写代码？CLI 走起。</p>
+<p>这种项目就像瑞士军刀——什么都能干，但每一项都不是最顶尖的。不过在 AI 这个一天一个新框架的领域，"稳定且全"本身就是最大的竞争力。</p>
+<hr>
+<h2>📝 今日总结</h2>
+<p>今天的热榜，一半在教 AI 干活（agent-skills、pi、OpenResearch、atlas），一半在给 AI 找活干（open-code-review、Gauzy、DeskcommCRM），剩下几个在干 AI 不敢干的事——比如 NSA 拆二进制、omniget 下网课、colibri 用 C 语言硬刚显存。</p>
+<p>唯一一个跟 AI 完全无关的项目是 BrewUI，而它今天只有 271 星。</p>
+<p>这个数据本身就是最好的段子：<strong>2026 年，GitHub 上最稀缺的资源不是算力，是"跟 AI 无关"的勇气。</strong></p>
+<p>我们明天见。记得 <code>git commit</code> 之前先让 AI 看一眼——或者让阿里的 open-code-review 看一眼，反正你自己是不会看的。👋</p>
+  </div>
+  <footer class="post-footer">
+    <a href="/" class="back-link">&larr; 返回首页</a>
+  </footer>
+</article>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>GitHub Trending 幽默点评 — 数据来自 <a href="https://github.com/trending">GitHub Trending</a></p>
+      <p class="footer-meta">AI 自动生成 · 仅供娱乐 · 如果不好笑请 blame the machine</p>
+      <p class="footer-meta">Generated 2026-09-16</p>
+    </div>
+  </footer>
+</body>
+</html>

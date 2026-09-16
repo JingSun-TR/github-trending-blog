@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🐦 今天的 GitHub 像是开了场"AI 全家桶"发布会</title>
-      <link>https://trending.dev/posts/2026-09-15.html</link>
-      <description>各位老铁，早上好。今天是 2026 年 9 月 15 日，我打开 Trending 的第一反应是：**这榜单是不是被 AI 灌了迷魂汤？** 15 个项目里，我数了数，大概有 11 个跟 AI 沾边，剩下 4 个是"人类最后的倔强"。行吧，那咱就一个个来盘。</description>
-      <pubDate>2026-09-15T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-09-15.html</guid>
+      <title>🔥 GitHub 今日热榜：阿里把代码审查卷成了流水线，NSA 还在默默拆你的二进制</title>
+      <link>https://trending.dev/posts/2026-09-16.html</link>
+      <description>朋友们，今天的热榜有一股很浓的"2026 年味道"——满屏都是 AI Agent、LLM、MCP，仿佛不接个大模型出门都不好意思跟人打招呼。我数了一下，14 个项目里有 9 个跟 AI 沾边。剩下的 5 个，有 2 个是来拆你代码的，1 个是来偷你课程的，还有 1 个是 Homebrew 终于想起来自己是给人类用的。</description>
+      <pubDate>2026-09-16T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-09-16.html</guid>
     </item>
   </channel>
 </rss>
