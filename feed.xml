@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🤖 今天的 GitHub 榜单：全世界都在造 Agent，只有一个人在防黑客</title>
-      <link>https://trending.dev/posts/2026-09-24.html</link>
-      <description>朋友们，我昨晚做了个梦，梦见自己打开 GitHub Trending，结果发现 15 个项目里有 14 个在写"agentic"这个词。醒来一看，梦是真的。</description>
-      <pubDate>2026-09-24T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-09-24.html</guid>
+      <title>🍜 GitHub 今日热榜：当全世界都在造 Agent，只有 C++ 老哥在偷偷画图</title>
+      <link>https://trending.dev/posts/2026-09-25.html</link>
+      <description>各位观众老爷晚上好，欢迎收看《今日 GitHub 谁又在造轮子》。今天是 9 月 25 日，热搜榜上弥漫着一股浓烈的"Agent 味儿"——我数了一下，14 个项目里至少有一半在干同一件事：让 AI 自己动手，丰衣足食。</description>
+      <pubDate>2026-09-25T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-09-25.html</guid>
     </item>
   </channel>
 </rss>
