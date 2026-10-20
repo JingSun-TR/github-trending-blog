@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🔥 GitHub Trending 今日：人类还没被优化掉，但简历已经被 AI 接管了</title>
-      <link>https://trending.dev/posts/2026-10-19.html</link>
-      <description>朋友们，今天的 Trending 看得我血压和发际线一起升高——13 个项目里，有 9 个是给 AI Agent 服务的。GitHub 已经不是代码托管平台了，它是 AI 的相亲角，而人类开发者负责在旁边递茶水。</description>
-      <pubDate>2026-10-19T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-10-19.html</guid>
+      <title>🔥 GitHub 今日热榜：全世界都在造 Agent，只有一个人在修老视频</title>
+      <link>https://trending.dev/posts/2026-10-20.html</link>
+      <description>今天的 Trending 榜单看下来，我有个强烈的感受——GitHub 已经变成"Agent 批发市场"了。十二个项目里，有八个在造 agent、管 agent、给 agent 装记忆、帮 agent 省 token。剩下的四个，一个在修老视频，一个在预测股价，一个连描述都懒得写，还有一个是 Claude Code 本尊——相当于皇帝微服私访，来看看自己的臣民都在干嘛。</description>
+      <pubDate>2026-10-20T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-10-20.html</guid>
     </item>
   </channel>
 </rss>
