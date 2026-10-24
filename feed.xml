@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>今日 GitHub 热榜：AI 教你怎么偷懒，PHP 还在默默扛着半个互联网 🐘</title>
-      <link>https://trending.dev/posts/2026-10-23.html</link>
-      <description>各位码农朋友们，早上好中午好晚上好——取决于你几点看到这篇推送。反正我知道你们中有人的生物钟已经和 CI 流水线的构建时间同步了。</description>
-      <pubDate>2026-10-23T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-10-23.html</guid>
+      <title>🔥 今日 GitHub 热榜：AI 学会了自己查安全漏洞，PHP 还在坚持活着</title>
+      <link>https://trending.dev/posts/2026-10-24.html</link>
+      <description>各位早，今天的热榜看下来，我最大的感受是——**AI 不仅要抢我们的饭碗，还要抢安全审计员、算命先生和配音演员的饭碗**。而 PHP 和 Node.js 就像两位老同志，坐在角落里默默举杯：“我们还在，我们真的还在。”</description>
+      <pubDate>2026-10-24T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-10-24.html</guid>
     </item>
   </channel>
 </rss>
