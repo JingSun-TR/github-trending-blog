@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今天的 GitHub 被 Agent 占领了，人类程序员正在变成&#34;审批按钮&#34; 🎛️ — 每日幽默点评</title>
+  <meta name="description" content="AI 驱动的 GitHub Trending 每日幽默点评——程序员图一乐。">
+  <link rel="alternate" type="application/rss+xml" title="GitHub Trending RSS" href="/feed.xml">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <span class="logo-icon">&#9650;</span>
+        <span class="logo-text">Trending</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">首页</a>
+        <a href="/archive.html">归档</a>
+        <a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending &nearr;</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    
+<article class="post-article">
+  <header class="post-header">
+    <a href="/" class="back-link">&larr; 返回首页</a>
+    <div class="post-date">2026-11-18</div>
+    <h1 class="post-title">今天的 GitHub 被 Agent 占领了，人类程序员正在变成&#34;审批按钮&#34; 🎛️</h1>
+  </header>
+  <div class="post-body">
+    <p>朋友们，今天是 2026 年 11 月 18 日。</p>
+<p>我打开 Trending 榜单的那一刻，第一反应是：GitHub 是不是被同一个 prompt 刷屏了？15 个项目里，有 11 个跟 AI Agent 沾亲带故。剩下 4 个里，还有两个是给 Agent 用的前端和 SDK。</p>
+<p>我仔细想了想，这就像你去看房，中介说"这小区什么都有"，结果到了发现：超市是无人售货、物业是机器人、连保安都是摄像头。方便是方便，就是有点瘆得慌。</p>
+<p>不废话，挑几个好玩的聊聊。</p>
+<hr>
+<h2>🏆 今日最佳：obra/superpowers —— 31 万星，Shell 写的，我服了</h2>
+<p><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">obra/superpowers</a> ⭐ 319,485 (+1,917)</p>
+<p>用 <strong>Shell</strong> 写的一个"Agent 技能框架 + 软件开发方法论"，31 万星。</p>
+<p>我盯着这个数字看了很久。Shell 写的。三十一万星。</p>
+<p>你知道这意味着什么吗？意味着全世界最火的"软件工程方法论"，本体是一堆 <code>.sh</code> 脚本。就像全世界最畅销的烹饪书，正文是 <code>echo "放盐"</code>。</p>
+<p>我仿佛看到一个老派 Unix 程序员，叼着烟，敲了三千行 bash，然后默默把整个 AI 时代的开发范式给定义了。而隔壁用 Rust 重写 <code>ls</code> 的兄弟们，星星还不到它零头。</p>
+<p>这波是 Shell 的复仇。<code>#!/bin/bash</code> 永不为奴。</p>
+<hr>
+<h2>🕵️ Claude-BugHunter —— 82 个技能教你挖洞，这是要抢安全工程师饭碗？</h2>
+<p><a href="https://github.com/elementalsouls/Claude-BugHunter" target="_blank" rel="noopener">elementalsouls/Claude-BugHunter</a> ⭐ 9,686 (+1,005)</p>
+<p>82 个 skill、15 个 slash command、681 个公开报告的漏洞模式，横跨 24 个核心漏洞类别，还带企业身份和基础设施攻击矩阵。</p>
+<p>翻译一下：<strong>这是一套把红队老法师的经验，压缩成 Agent 可执行指令的"外挂秘籍"。</strong></p>
+<p>以前一个安全工程师得啃几百份 HackerOne 报告、在靶场里摔打三年，才能练出"这行代码不对劲"的直觉。现在你把这些直觉喂给 Claude，它一天读完 681 份报告，然后告诉你第 47 行有 SSRF。</p>
+<p>我唯一的建议是：用它之前，请先确认对方的授权书是真的。不然你可能会从"安全研究员"直接转职成"看守所研究员"。</p>
+<hr>
+<h2>🔍 alibaba/open-code-review —— 阿里把"代码评审"做成了 Go 项目，还带 LLM</h2>
+<p><a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener">alibaba/open-code-review</a> ⭐ 53,878 (+763)</p>
+<p>混合架构：确定性流水线 + LLM Agent。精确到行级评论，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。</p>
+<p>关键词是"<strong>battle-tested at Alibaba's scale</strong>"。这句话的分量，懂的都懂——能扛住双十一那种流量和那种代码库规模还能跑的东西，放在别处基本属于降维打击。</p>
+<p>我最喜欢的是"确定性流水线 + LLM"这个组合。翻译成人话就是：<strong>脏活累活交给规则跑，需要动脑子的交给模型。</strong> 这才是正经用法，而不是像某些项目那样，把 <code>git commit</code> 也扔给大模型，然后祈祷它别把 <code>rm -rf</code> 写成"优化磁盘空间"。</p>
+<hr>
+<h2>📊 dream-num/univer —— 今日新增冠军，1744 星，想把 Office 塞进你产品里</h2>
+<p><a href="https://github.com/dream-num/univer" target="_blank" rel="noopener">dream-num/univer</a> ⭐ 29,156 (+1,774)</p>
+<p>今日新增第一。TypeScript 写的 Office SDK，编辑、计算、协作、文件处理一条龙，主打"给人和 AI Agent 用"。</p>
+<p>说人话：<strong>你想在自己的产品里嵌一个 Excel？以前你得跟微软谈，现在 <code>npm install</code> 就完事。</strong></p>
+<p>而且它明确说了"for people and AI agents"。这句话很妙——意思是以后你的 AI 助手可以直接打开你产品里的表格，跟你一起改公式，而不是在旁边干着急说"我建议您手动调整一下 B2 单元格"。</p>
+<p>国产开源里少有的硬骨头项目。图表、公式、协同这些坑，填一个少一个，他们填了 29000 星那么多。</p>
+<hr>
+<h2>🎨 google-labs-code/stitch-skills —— 谷歌也来发"技能包"了</h2>
+<p><a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener">google-labs-code/stitch-skills</a> ⭐ 10,176 (+350)</p>
+<p>给 Stitch MCP server 用的 Agent Skills 库，遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor。</p>
+<p>注意兼容列表——<strong>谷歌出的技能包，第一个提的兼容对象是 Claude Code。</strong> 这就像可口可乐出的杯子，说明书上写"适配百事"。</p>
+<p>时代真的变了。以前是"我的生态你做兼容"，现在是"谁的 Agent 多，我就兼容谁"。</p>
+<hr>
+<h2>🐳 getarcaneapp/arcane —— Docker 管理面板，加了"Designed for Everyone"</h2>
+<p><a href="https://github.com/getarcaneapp/arcane" target="_blank" rel="noopener">getarcaneapp/arcane</a> ⭐ 9,422 (+618)</p>
+<p>现代 Docker 管理界面，"Designed for Everyone"。</p>
+<p>我每次看到"for Everyone"都想笑。Docker 这件事，对写代码的人来说是"for Everyone"，对不写代码的人来说是"for Nobody"。</p>
+<p>但说真的，Portainer 那套 UI 确实该有人卷一卷了。Arcane 看着清爽，Go 写的，单二进制部署，很适合那些"我不想学 docker-compose 语法，我只想点鼠标"的朋友——也就是我们所有人。</p>
+<hr>
+<h2>🧠 jingyaogong/minimind —— 2 小时从零训一个 64M 的 LLM</h2>
+<p><a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener">jingyaogong/minimind</a> ⭐ 66,158 (+192)</p>
+<p>64M 参数，2 小时，从零训练。</p>
+<p>在满屏"千亿参数""万卡集群"的今天，这个项目像一股清流。它告诉你：<strong>大模型不是只有巨头的游戏，你家那张 4090 也能生一个。</strong></p>
+<p>64M 参数大概是什么水平？大概相当于一个特别博学的小学生——懂点常识，会点对话，但你问它微积分它会沉默，问它今天天气它会开始编。</p>
+<p>但重点是"从零"两个字。你自己训出来的模型，哪怕只会说"你好"，那种成就感跟调用 API 完全不是一回事。就像自己种的番茄，再小也比超市买的香。</p>
+<hr>
+<h2>🧩 affaan-m/ECC —— 30 万星的"Agent 性能优化系统"</h2>
+<p><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">affaan-m/ECC</a> ⭐ 305,710 (+883)</p>
+<p>技能、本能、记忆、安全、研究优先的开发范式，支持 Claude Code、Codex、Opencode、Cursor 等等。</p>
+<p>30 万星。跟 superpowers 一个量级。</p>
+<p>我注意到一个细节：这类"Agent 元框架"的星星，普遍比具体工具高一个数量级。说明什么？说明<strong>大家都在焦虑"怎么把 Agent 用好"，而不是"用哪个 Agent"。</strong></p>
+<p>这就像健身房里，卖课的人永远比练得好的人多。</p>
+<hr>
+<h2>🔁 backnotprop/plannotator —— 给人类留的最后一个工位</h2>
+<p><a href="https://github.com/backnotprop/plannotator" target="_blank" rel="noopener">backnotprop/plannotator</a> ⭐ 13,147 (+691)</p>
+<p>一个工作区：塑造、决策、规划、标注、评审代码、分享给团队，一键把所有反馈发回 Agent。</p>
+<p>这个项目我很喜欢，因为它诚实。它不假装人类还能写代码，它只承认：<strong>人类现在的核心工作，是给 Agent 打批注。</strong></p>
+<p>"stay in the loop"——留在循环里。多悲壮的四个字。以前我们是循环本身，现在我们是循环里的一个 if 判断：<code>if (human.approve()) { deploy(); }</code>。</p>
+<p>但话说回来，能一键把反馈推回去，确实比在五个标签页里复制粘贴强。工具无罪，时代无罪，我们只是恰好在换岗。</p>
+<hr>
+<h2>📝 结尾</h2>
+<p>最后说个冷笑话。</p>
+<p>我数了一下今天的榜单：有 3 个项目是"技能包"，2 个是"协议/规范"，3 个是"Agent 编排框架"，1 个是"给人类留的批注界面"。</p>
+<p>如果把这些拼起来，你会发现 GitHub Trending 正在描述一个完整的产品：<strong>一群 Agent，用统一的协议，加载各种技能，互相编排，然后把结果交给一个人类——那个人类的工作，是在界面上点"同意"。</strong></p>
+<p>那个人类，就是明天的我们。</p>
+<p>好消息是，至少今天，我们还得自己写这篇点评。因为没有人会给"吐槽 Trending"这件事做一个 skill。</p>
+<p>……等下，我收回这句话。我赌下周就有了。</p>
+<hr>
+<p><em>本文由人类撰写，未经 Agent 审批。如有雷同，纯属时代必然。</em></p>
+  </div>
+  <footer class="post-footer">
+    <a href="/" class="back-link">&larr; 返回首页</a>
+  </footer>
+</article>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>GitHub Trending 幽默点评 — 数据来自 <a href="https://github.com/trending">GitHub Trending</a></p>
+      <p class="footer-meta">AI 自动生成 · 仅供娱乐 · 如果不好笑请 blame the machine</p>
+      <p class="footer-meta">Generated 2026-11-18</p>
+    </div>
+  </footer>
+</body>
+</html>
