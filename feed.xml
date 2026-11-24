@@ -6,11 +6,11 @@
     <description>每日 GitHub Trending 幽默点评——AI 写段子，程序员图一乐</description>
     <language>zh-CN</language>
     <item>
-      <title>🔥 GitHub Trending 今日观察：全世界都在给 AI 装技能，只有 nginx 在默默扫地</title>
-      <link>https://trending.dev/posts/2026-11-23.html</link>
-      <description>今天的榜单看下来，我有个强烈的感受：**GitHub 已经变成了一个大型“技能补习班”**。从 bug 猎人到图表设计，从 App Store 过审到 CI/CD 排障，大家都在忙着给 AI Agent 报班、发证书、塞技能包。而榜单角落里，nginx 像个在网吧通宵改 bug 的老大爷，头都没抬一下。</description>
-      <pubDate>2026-11-23T00:00:00Z</pubDate>
-      <guid>https://trending.dev/posts/2026-11-23.html</guid>
+      <title>🔥 GitHub Trending 今日观察：全世界都在给 AI 装"技能包"，nginx 默默打卡上班</title>
+      <link>https://trending.dev/posts/2026-11-24.html</link>
+      <description>今天的 Trending 榜单有一个非常统一的气质：**全员在给 AI 装技能**。</description>
+      <pubDate>2026-11-24T00:00:00Z</pubDate>
+      <guid>https://trending.dev/posts/2026-11-24.html</guid>
     </item>
   </channel>
 </rss>
